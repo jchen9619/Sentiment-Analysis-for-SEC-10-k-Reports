@@ -62,7 +62,6 @@ tokenized
 <br>
 - HTML to PDF Conversion
 - Text Extraction by Key Word Search
-
 - Lower case transformation
 - Stop word removal
 - Punctuation removal
