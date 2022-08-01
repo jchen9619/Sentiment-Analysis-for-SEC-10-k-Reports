@@ -1,1 +1,1 @@
-# Sentiment-Analysis-for-SEC-10-k-Reports
+# Sentiment Analysis for SEC 10-k Reports
