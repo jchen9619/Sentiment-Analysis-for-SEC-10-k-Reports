@@ -61,12 +61,11 @@ The following tables display the frequency of positive and negative words in ite
 </p>
 With the range of Positive Words Frequency being much narrower than that of Negative Words Frequency among the five companies, Negative Words Frequency serves as a differentiator in the tones of the 10-k financial reports.
 
-Overall, Moderna, Inc. ranks highest in frequency of negative words, followed by Eli Lilly and Company, Johnson & Johnson, Pfizer Inc. and AbbVie Inc. However, for the individual items, Eli Lilly and Company ranks highest instead. It appears Moderna's high overall ranking is mostly attributable to high negative words frequency in item 1A.
+Overall, Moderna, Inc. ranks highest in frequency of negative words, followed by Eli Lilly and Company, Johnson & Johnson, Pfizer Inc. and AbbVie Inc. However, for the individual items, Eli Lilly and Company ranks highest instead. It appears Moderna's high overall ranking is mostly attributable to high negative words frequency in item 1A. <br>
+   <br>
 
-Zooming in on item 7, which discusses the company's annual performance in greater detail than item 1A, Eli Lilly and Company, Pfizer Inc. and Johnson and Johnson's reports are worth a more in-depth read as their tones indicate more negative sentiments than the rest.
-
-We will shed more light on this analysis in section II, higlighting the sentiment words that appear most frequently and the sentences they belong to.
-
+Zooming in on item 7, which discusses the company's annual performance in greater detail than item 1A, Eli Lilly and Company, Pfizer Inc. and Johnson and Johnson's reports are worth a more in-depth read as their tones indicate more negative sentiments than the rest. <br>
+   <br>
 ## Identification of Top Sentiment Words
 [(Back to top)](#table-of-contents)
 <br>
@@ -82,7 +81,7 @@ Item 1A tends to include more negative words because it discusses risk factors. 
     
 **AbbVie Inc., Item 1A** <br>
 "Successful(ly)", "Adversely"<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The <mark style="background-color: #FFFF00">**successful**</mark> discovery, development, manufacturing and sale of biologics is a long, expensive and uncertain process. There are unique risks and uncertainties with biologics. For example, access to and supply of necessary biological materials, such as cell lines, may be limited and governmental regulations restrict access to and regulate the transport and use of such materials. In addition, the development, manufacturing and sale of biologics is subject to regulations that are often more complex and extensive than the regulations applicable to other pharmaceutical products...Biologics are also frequently costly to manufacture because production inputs are derived from living animal or plant material, and some biologics cannot be made synthetically. Failure to <mark style="background-color: #FFFF00">**successfully**</mark> discover, develop, manufacture and sell biologics—including Humira—could <mark style="background-color: #FFFF00">**adversely**</mark> impact AbbVie's business and results of operations.  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The <div style="background-color: #FFFF00">**successful**</div> discovery, development, manufacturing and sale of biologics is a long, expensive and uncertain process. There are unique risks and uncertainties with biologics. For example, access to and supply of necessary biological materials, such as cell lines, may be limited and governmental regulations restrict access to and regulate the transport and use of such materials. In addition, the development, manufacturing and sale of biologics is subject to regulations that are often more complex and extensive than the regulations applicable to other pharmaceutical products...Biologics are also frequently costly to manufacture because production inputs are derived from living animal or plant material, and some biologics cannot be made synthetically. Failure to <mark style="background-color: #FFFF00">**successfully**</mark> discover, develop, manufacture and sell biologics—including Humira—could <mark style="background-color: #FFFF00">**adversely**</mark> impact AbbVie's business and results of operations.  
 
 **Pfizer Inc., Item 1A** <br>
 "Litigation", "Loss", "Adversely"<br>
