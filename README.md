@@ -17,14 +17,16 @@ View Code
 <br>
 Sentiment analysis has been increasingly popular in finance as text processing allows us to generate valuable insight without reading the entirety of lengthy documents. Leveraging multiple natural language processing techniques, this project compares the overall sentiment of fiscal year 2021 10-k financial reports for five pharmaceutical companies: Pfizer Inc., Moderna, Inc., Johnson & Johnson, Eli Lilly and Company and AbbVie Inc, based on text in items 1A. Risk Factors and 7. Management's Discussion and Analysis of Financial Condition and Results of Operations. The project contains three sections.
 
-1. Text Extraction and Cleaning: Reports were converted from HTML to PDFs with PDFkit. The entire document was then parsed to extract items 1A and 7 with PyPDF and RegEx key word search function. After turning all words into lower case, stop words (e.g. “a”, “the”, “is”, “are”, etc. ) and punctuations were removed to lighten the content that needed to be processed, as they do not add meaningful information to a sentence.
+1. Text Extraction and Cleaning: <br>
 The following initial steps were performed to prepare the reports for further analysis: <br>
 - Convert HTML to PDFs with PDFKit
 - Extract items 1A and 7 PyPDF and RegEx key word search
 - Transform all words to lower case
 - Remove punctuations and stop words (non-meaningful words that do not add much information to a sentence, e.g. “a”, “the”, “is”, “are”, etc.) 
-2. Comparison of Sentiment Word Frequency: This section tokenizes the remaining non-stop-words, and culminates in a table that shows total positive and negative sentiment words as absolute numbers and as a percentage of total non-stop-words. This is done in the scope of Item 1A, Item 7 and these two sections combined. 
-3. Identification of Top Sentiment Words: For each company, the top 10 most frequent sentiment words in items 1A and 7 are displayed. Searching these words in their respective sections produce meaningful insight on a companies' financial and operational developments in the fiscal year. 
+2. Comparison of Sentiment Word Frequency: <br>
+3. This section tokenizes the remaining non-stop-words, and culminates in a table that shows total positive and negative sentiment words as absolute numbers and as a percentage of total non-stop-words. This is done in the scope of Item 1A, Item 7 and these two sections combined. 
+4. Identification of Top Sentiment Words: <br>
+For each company, the top 10 most frequent sentiment words in items 1A and 7 are displayed. Searching these words in their respective sections produce meaningful insight on a companies' financial and operational developments in the fiscal year. 
 
 ## Data Source
 [(Back to top)](#table-of-contents)
@@ -50,7 +52,15 @@ The following table displays the amount of stop words and punctuations removed f
 ## Comparison of Sentiment Word Frequency
 [(Back to top)](#table-of-contents)
 <br>
+The following tables show the frequency of positive and negative words in item 1A, item 7 and the two sections combined. 
+  <img src="https://github.com/jchen9619/Sentiment-Analysis-for-SEC-10-k-Reports/blob/main/img/1afreq.png" />
+</p>
 
+  <img src="https://github.com/jchen9619/Sentiment-Analysis-for-SEC-10-k-Reports/blob/main/img/7freq.png" />
+</p>
+
+  <img src="https://github.com/jchen9619/Sentiment-Analysis-for-SEC-10-k-Reports/blob/main/img/totalfreq.png" />
+</p>
 
 ## Identification of Top Sentiment Words
 [(Back to top)](#table-of-contents)
