@@ -42,7 +42,7 @@ The following initial steps were performed to prepare the reports for further an
 ## Text Extraction and Cleaning
 [(Back to top)](#table-of-contents)
 <br>
-The following table displays the amount of stop words and punctuations removed from the original text:
+The following table displays the amount of stop words and punctuations removed from the original text. 35-45% of total word count were removed for the five companies. 
 
   <img src="https://github.com/jchen9619/Sentiment-Analysis-for-SEC-10-k-Reports/blob/main/img/stopwords.png" />
 </p>
