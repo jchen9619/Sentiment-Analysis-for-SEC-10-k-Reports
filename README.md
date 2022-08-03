@@ -23,10 +23,8 @@ The following initial steps were performed to prepare the reports for further an
 - Extract items 1A and 7 PyPDF and RegEx key word search
 - Transform all words to lower case
 - Remove punctuations and stop words (non-meaningful words that do not add much information to a sentence, e.g. “a”, “the”, “is”, “are”, etc.) 
-2. Comparison of Sentiment Word Frequency: <br>
-3. This section tokenizes the remaining non-stop-words, and culminates in a table that shows total positive and negative sentiment words as absolute numbers and as a percentage of total non-stop-words. This is done in the scope of Item 1A, Item 7 and these two sections combined. 
-4. Identification of Top Sentiment Words: <br>
-For each company, the top 10 most frequent sentiment words in items 1A and 7 are displayed. Searching these words in their respective sections produce meaningful insight on a companies' financial and operational developments in the fiscal year. 
+2. Comparison of Sentiment Word Frequency: This section tokenizes the remaining non-stop-words, and culminates in a table that shows total positive and negative sentiment words as absolute numbers and as a percentage of total non-stop-words. This is done in the scope of Item 1A, Item 7 and these two sections combined. 
+3. Identification of Top Sentiment Words: For each company, the top 10 most frequent sentiment words in items 1A and 7 are displayed. Searching these words in their respective sections produce meaningful insight on a companies' financial and operational developments in the fiscal year. 
 
 ## Data Source
 [(Back to top)](#table-of-contents)
@@ -62,7 +60,6 @@ The following tables display the frequency of positive and negative words in ite
 With the range of Positive Words Frequency being much narrower than that of Negative Words Frequency among the five companies, Negative Words Frequency serves as a differentiator in the tones of the 10-k financial reports.
 
 Overall, Moderna, Inc. ranks highest in frequency of negative words, followed by Eli Lilly and Company, Johnson & Johnson, Pfizer Inc. and AbbVie Inc. However, for the individual items, Eli Lilly and Company ranks highest instead. It appears Moderna's high overall ranking is mostly attributable to high negative words frequency in item 1A. <br>
-   <br>
 
 Zooming in on item 7, which discusses the company's annual performance in greater detail than item 1A, Eli Lilly and Company, Pfizer Inc. and Johnson and Johnson's reports are worth a more in-depth read as their tones indicate more negative sentiments than the rest. <br>
    <br>
