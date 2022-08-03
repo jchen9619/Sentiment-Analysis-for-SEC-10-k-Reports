@@ -62,7 +62,7 @@ With the range of Positive Words Frequency being much narrower than that of Nega
 Overall, Moderna, Inc. ranks highest in frequency of negative words, followed by Eli Lilly and Company, Johnson & Johnson, Pfizer Inc. and AbbVie Inc. However, for the individual items, Eli Lilly and Company ranks highest instead. It appears Moderna's high overall ranking is mostly attributable to high negative words frequency in item 1A. <br>
 
 Zooming in on item 7, which discusses the company's annual performance in greater detail than item 1A, Eli Lilly and Company, Pfizer Inc. and Johnson and Johnson's reports are worth a more in-depth read as their tones indicate more negative sentiments than the rest. <br>
-   <br>
+
 ## Identification of Top Sentiment Words
 [(Back to top)](#table-of-contents)
 <br>
