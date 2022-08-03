@@ -1,7 +1,7 @@
 <img src="https://www.dnv.nl/Images/image%20leaflet%201000x500_tcm10-185922.jpg">
 
 # Sentiment Analysis for SEC 10-k Reports
-[View Code](https://github.com/jchen9619/Sentiment-Analysis-for-SEC-10-k-Reports/blob/main/10K%20Sentiment%20Analysis.ipynb)
+[View Code](https://github.com/jchen9619/Sentiment-Analysis-for-SEC-10-k-Reports/blob/main/10K%20Sentiment%20Analysis.pdf)
 
 ## Table of Contents
 - [Project Objective](#project-objective)
@@ -23,7 +23,7 @@ The following initial steps were performed to prepare the reports for further an
 - Extract items 1A and 7 PyPDF and RegEx key word search
 - Transform all words to lower case
 - Remove punctuations and stop words (non-meaningful words that do not add much information to a sentence, e.g. “a”, “the”, “is”, “are”, etc.) 
-2. Comparison of Sentiment Word Frequency: This section tokenizes the remaining non-stop-words, and culminates in a table that shows total positive and negative sentiment words as absolute numbers and as a percentage of total non-stop-words. This is done in the scope of Item 1A, Item 7 and these two sections combined. 
+2. Comparison of Sentiment Word Frequency: This section tokenizes the remaining non-stop-words, and culminates in a table that shows total positive and negative sentiment words as absolute numbers and as a percentage of total non-stop-words. This is done in the scope of Item 1A, Item 7 and these two sections combined. <br>
 3. Identification of Top Sentiment Words: For each company, the top 10 most frequent sentiment words in items 1A and 7 are displayed. Searching these words in their respective sections produce meaningful insight on a companies' financial and operational developments in the fiscal year. 
 
 ## Data Source
