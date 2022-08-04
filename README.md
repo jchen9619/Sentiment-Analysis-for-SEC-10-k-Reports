@@ -1,7 +1,7 @@
 <img src="https://www.dnv.nl/Images/image%20leaflet%201000x500_tcm10-185922.jpg">
 
 # Sentiment Analysis for SEC 10-k Reports
-[View Jupyter Notebook](https://github.com/jchen9619/Sentiment-Analysis-for-SEC-10-k-Reports/blob/main/10K-Sentiment-Analysis.ipynb)
+[View Jupyter Notebook](https://github.com/jchen9619/Sentiment-Analysis-for-SEC-10-k-Reports/blob/main/10K-Sentiment-Analysis.ipynb) <br>
 [View PDF](https://github.com/jchen9619/Sentiment-Analysis-for-SEC-10-k-Reports/blob/main/10K%20Sentiment%20Analysis.pdf)
 
 ## Table of Contents
