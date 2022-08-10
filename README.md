@@ -17,7 +17,7 @@
 ## Project Objective
 [(Back to top)](#table-of-contents)
 <br>
-Sentiment analysis has been increasingly popular in finance as text processing allows us to generate valuable insight without reading the entirety of lengthy documents. Leveraging multiple natural language processing techniques, this project compares the overall sentiment of fiscal year 2021 10-k financial reports for five pharmaceutical companies: Pfizer Inc., Moderna, Inc., Johnson & Johnson, Eli Lilly and Company and AbbVie Inc, based on text in items 1A. Risk Factors and 7. Management's Discussion and Analysis of Financial Condition and Results of Operations. The project contains three sections.
+Sentiment analysis has been increasingly popular in finance as text processing produces valuable insight without reading lengthy documents in their entirety. Leveraging multiple natural language processing techniques, this project compares the overall sentiment of fiscal year 2021 10-k financial reports for five pharmaceutical companies: Pfizer Inc., Moderna, Inc., Johnson & Johnson, Eli Lilly and Company and AbbVie Inc, based on text in items 1A. Risk Factors and 7. Management's Discussion and Analysis of Financial Condition and Results of Operations. The project contains three sections.
 
 1. Text Extraction and Cleaning: <br>
 The following initial steps were performed to prepare the reports for further analysis: 
