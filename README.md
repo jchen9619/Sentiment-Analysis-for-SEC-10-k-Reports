@@ -17,7 +17,7 @@
 ## Project Objective
 [(Back to top)](#table-of-contents)
 <br>
-Sentiment analysis has been increasingly popular in finance as text processing produces valuable insight without reading lengthy documents in their entirety. Leveraging multiple natural language processing techniques, this project compares the overall sentiment of fiscal year 2021 10-k financial reports for five pharmaceutical companies: Pfizer Inc., Moderna, Inc., Johnson & Johnson, Eli Lilly and Company and AbbVie Inc, based on text in items 1A. Risk Factors and 7. Management's Discussion and Analysis of Financial Condition and Results of Operations. The project contains three sections.
+Sentiment analysis has been increasingly popular in finance as text processing produces valuable insight without reading lengthy documents in their entirety. Leveraging multiple natural language processing techniques, this project compares the overall sentiment of fiscal year 2022 10-k financial reports for five pharmaceutical companies: Pfizer Inc., Moderna, Inc., Johnson & Johnson, Eli Lilly and Company and AbbVie Inc, based on text in items 1A. Risk Factors and 7. Management's Discussion and Analysis of Financial Condition and Results of Operations. The project contains three sections.
 
 1. Text Extraction and Cleaning: <br>
 The following initial steps were performed to prepare the reports for further analysis: 
@@ -31,7 +31,7 @@ The following initial steps were performed to prepare the reports for further an
 ## Data Source
 [(Back to top)](#table-of-contents)
 <br>
-**10k Reports for FY2021 from Securities and Exchange Commission (SEC):** <br>
+**10k Reports for FY2022 from Securities and Exchange Commission (SEC):** <br>
 - [Pfizer Inc.](https://www.sec.gov/Archives/edgar/data/78003/000007800323000024/pfe-20221231.htm) <br>
 - [Moderna, Inc.](https://www.sec.gov/Archives/edgar/data/1682852/000168285223000011/mrna-20221231.htm) <br>
 - [Johnson and Johnson](https://www.sec.gov/Archives/edgar/data/200406/000020040623000016/jnj-20230101.htm) <br>
@@ -84,11 +84,11 @@ Item 1A tends to include more negative words because it discusses risk factors. 
 
 **Pfizer Inc., Item 1A** <br>
 "Litigation", "Loss", "Adversely"<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;We recorded direct product and/or Alliance revenues of more than $1 billion for each of nine products that collectively accounted for 75% of our total revenues in 2021. In particular, Comirnaty/BNT162b2 accounted for 45% of our total revenues in 2021. For additional information, see Notes 1 and 17. If these products or any of our other major products were to experience <ins>**loss**</ins> of patent protection (if applicable), changes in prescription or vaccination growth rates, material product liability <ins>**litigation**</ins>, unexpected side effects or safety concerns, regulatory proceedings, negative publicity affecting doctor or patient confidence, pressure from existing competitive products, changes in labeling, pricing and access pressures or supply shortages or if a new, more effective product should be introduced, the <ins>**adverse**</ins> impact on our revenues could be significant.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;We recorded direct product and/or Alliance revenues of more than $1 billion for each of nine products that collectively accounted for 75% of our total revenues in 2022. In particular, Comirnaty/BNT162b2 accounted for 45% of our total revenues in 2022. For additional information, see Notes 1 and 17. If these products or any of our other major products were to experience <ins>**loss**</ins> of patent protection (if applicable), changes in prescription or vaccination growth rates, material product liability <ins>**litigation**</ins>, unexpected side effects or safety concerns, regulatory proceedings, negative publicity affecting doctor or patient confidence, pressure from existing competitive products, changes in labeling, pricing and access pressures or supply shortages or if a new, more effective product should be introduced, the <ins>**adverse**</ins> impact on our revenues could be significant.
     
 **Eli Lilly and Company, Item 7** <br>
 "Exclusivity", "Favorable", "Loss", "Severe(ly)" <br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Revenue of Alimta, a treatment for various cancers, decreased 2 percent in the U.S., driven by decreased volume, partially offset by higher realized prices. Revenue outside the U.S. decreased 22 percent, primarily driven by decreased volume due to the entry of generic competition in certain markets and, to a lesser extent, lower realized prices, partially offset by the <ins>**favorable**</ins> impact of foreign exchange rates. Following the <ins>**loss**</ins> of <ins>**exclusivity**</ins> in major European countries and Japan in June 2021, we faced, and remain exposed to, generic competition which has eroded revenue and is likely to continue to rapidly and <ins>**severely**</ins> erode revenue from current levels. In the U.S., we expect the limited entry of generic competition starting February 2022 and subsequent unlimited entry starting April 2022. We expect that the entry of generic competition following the <ins>**loss**</ins> of <ins>**exclusivity**</ins> in the U.S. will cause a rapid and <ins>**severe**</ins> decline in revenue.    
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Revenue of Alimta, a treatment for various cancers, decreased 2 percent in the U.S., driven by decreased volume, partially offset by higher realized prices. Revenue outside the U.S. decreased 22 percent, primarily driven by decreased volume due to the entry of generic competition in certain markets and, to a lesser extent, lower realized prices, partially offset by the <ins>**favorable**</ins> impact of foreign exchange rates. Following the <ins>**loss**</ins> of <ins>**exclusivity**</ins> in major European countries and Japan in June 2022, we faced, and remain exposed to, generic competition which has eroded revenue and is likely to continue to rapidly and <ins>**severely**</ins> erode revenue from current levels. In the U.S., we expect the limited entry of generic competition starting February 2022 and subsequent unlimited entry starting April 2022. We expect that the entry of generic competition following the <ins>**loss**</ins> of <ins>**exclusivity**</ins> in the U.S. will cause a rapid and <ins>**severe**</ins> decline in revenue.    
 
 **Moderna Inc., Item 7** <br>
 "Advance", "Progress" <br>
@@ -96,7 +96,7 @@ Item 1A tends to include more negative words because it discusses risk factors. 
   
 **Johnson & Johnson, Item 7** <br>
 "Achieved", "Positive"  <br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;In 2021, sales by companies in Europe <ins>**achieved**</ins> growth of 24.3% as compared to the prior year, which included operational growth of 20.7% and a <ins>**positive**</ins> currency impact of 3.6%. Sales by companies in the Western Hemisphere (excluding the U.S.) <ins>**achieved**</ins> growth of 7.8% as compared to the prior year, which included operational growth of 7.3% and a <ins>**positive**</ins> currency impact of 0.5%. Sales by companies in the Asia-Pacific, Africa region <ins>**achieved**</ins> growth of 14.1% as compared to the prior year, including operational growth of 11.4% and a <ins>**positive**</ins> currency impact of 2.7%. 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;In 2022, sales by companies in Europe <ins>**achieved**</ins> growth of 24.3% as compared to the prior year, which included operational growth of 20.7% and a <ins>**positive**</ins> currency impact of 3.6%. Sales by companies in the Western Hemisphere (excluding the U.S.) <ins>**achieved**</ins> growth of 7.8% as compared to the prior year, which included operational growth of 7.3% and a <ins>**positive**</ins> currency impact of 0.5%. Sales by companies in the Asia-Pacific, Africa region <ins>**achieved**</ins> growth of 14.1% as compared to the prior year, including operational growth of 11.4% and a <ins>**positive**</ins> currency impact of 2.7%. 
 
 ## Methods Used
 [(Back to top)](#table-of-contents)
