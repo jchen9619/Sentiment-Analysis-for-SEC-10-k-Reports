@@ -32,11 +32,11 @@ The following initial steps were performed to prepare the reports for further an
 [(Back to top)](#table-of-contents)
 <br>
 **10k Reports for FY2021 from Securities and Exchange Commission (SEC):** <br>
-- [Pfizer Inc.](http://www.sec.gov/Archives/edgar/data/0000078003/000007800322000027/pfe-20211231.htm) <br>
-- [Moderna, Inc.](http://www.sec.gov/Archives/edgar/data/1682852/000168285222000012/mrna-20211231.htm) <br>
-- [Johnson and Johnson](http://www.sec.gov/Archives/edgar/data/200406/000020040622000022/jnj-20220102.htm) <br>
-- [Eli Lilly and Company](http://www.sec.gov/Archives/edgar/data/59478/000005947822000068/lly-20211231.htm) <br>
-- [AbbVie Inc.](http://www.sec.gov/Archives/edgar/data/0001551152/000155115222000007/abbv-20211231.htm) <br>
+- [Pfizer Inc.](https://www.sec.gov/Archives/edgar/data/78003/000007800323000024/pfe-20221231.htm) <br>
+- [Moderna, Inc.](https://www.sec.gov/Archives/edgar/data/1682852/000168285223000011/mrna-20221231.htm) <br>
+- [Johnson and Johnson](https://www.sec.gov/Archives/edgar/data/200406/000020040623000016/jnj-20230101.htm) <br>
+- [Eli Lilly and Company](https://www.sec.gov/Archives/edgar/data/59478/000005947823000082/lly-20221231.htm) <br>
+- [AbbVie Inc.](https://www.sec.gov/Archives/edgar/data/1551152/000155115223000011/abbv-20221231.htm) <br>
 
 **Dictionary of Sentiment Words:** <br>
 - [Loughran-McDonald Master Dictionary w/ Sentiment Word Lists](https://sraf.nd.edu/loughranmcdonald-master-dictionary/)
