@@ -1,4 +1,4 @@
-<img src="https://github.com/jchen9619/Sentiment-Analysis-for-SEC-10-k-Reports/blob/main/img/images.jfif">
+<img src="https://github.com/jchen9619/Sentiment-Analysis-for-SEC-10-k-Reports/blob/main/img/ue88t7ym.png">
 
 # Sentiment Analysis for SEC 10-k Reports
 [View Jupyter Notebook](https://github.com/jchen9619/Sentiment-Analysis-for-SEC-10-k-Reports/blob/main/10K-Sentiment-Analysis.ipynb) <br>
